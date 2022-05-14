@@ -1,6 +1,6 @@
 class Translation(object):
-    START_TEXT = """Hello <b>{message.from_user.first_name}</b>,
-This is a Telegram Multipurpose Bot Which can do many functions.
+    START_TEXT = """Hi <b>{message.from_user.first_name}</b>,
+Thanks You for using me.
 
 /help for more details..
 """
@@ -38,7 +38,7 @@ URL | filename | username | password"""
 --------
 Telegram ID : <code>{}</code>
 """
-    HELP_USER = """Hii I am <b>Multipurpose bot</b> and I can perform many tasks.
+    HELP_USER = """Hii I am <b>Url Uploader|File Renamer bot</b> and I can perform many tasks.
     
 1.) Send url (Link|New Name with Extension).
 2.) Send Custom Thumbnail (Optional).
@@ -69,7 +69,7 @@ Telegram ID : <code>{}</code>
     EXTRACT_ZIP_INTRO_ONE = "Send a compressed file first, Then reply /unzip command to the file."
     EXTRACT_ZIP_INTRO_THREE = "Analyzing received file. ⚠️ This might take some time. Please be patient. "
     UNZIP_SUPPORTED_EXTENSIONS = ("zip", "rar")
-    EXTRACT_ZIP_ERRS_OCCURED = "Sorry. Errors occurred while processing compressed file. Please check everything again twice, and if the issue persists, report this to <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
+    EXTRACT_ZIP_ERRS_OCCURED = "Sorry. Errors occurred while processing compressed file. Please check everything again twice, and if the issue persists, report this to <a href='https://telegram.dog/ThankTelegram'>@infotechIT</a>"
     EXTRACT_ZIP_STEP_TWO = """Select file_name to upload from the below options.
 You can use /rename command after receiving file to rename it with custom thumbnail support."""
     CANCEL_STR = "Process Cancelled"
